@@ -32,4 +32,13 @@ public class Course {
     public void handleXp() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", workload=" + workload +
+                '}';
+    }
 }
