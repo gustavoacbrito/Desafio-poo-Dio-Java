@@ -14,10 +14,10 @@ public class Course extends Content {
     @Override
     public String toString() {
         return "Course{" +
-                "title='" + getTitle() + '\'' +
-                ", description='" + getDescription() + '\'' +
-                ", workload=" + workload +
-                '}';
+                "\n\ttitle='" + getTitle() + '\'' +
+                ",\n\tdescription='" + getDescription() + '\'' +
+                ",\n\tworkload=" + workload +
+                "\n}";
     }
 
     @Override
