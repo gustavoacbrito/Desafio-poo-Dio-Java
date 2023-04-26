@@ -54,7 +54,9 @@ public class Dev {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Dev dev = (Dev) o;
-        return Objects.equals(name, dev.name) && Objects.equals(subscribedContents, dev.subscribedContents) && Objects.equals(finishedContents, dev.finishedContents);
+        return Objects.equals(name, dev.name)
+                && Objects.equals(subscribedContents, dev.subscribedContents)
+                && Objects.equals(finishedContents, dev.finishedContents);
     }
 
     @Override
